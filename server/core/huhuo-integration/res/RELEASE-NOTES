@@ -1,0 +1,29 @@
+================================================================================
+ huhuo-integration
+================================================================================
+                    huhuo Mobile Version 1.0.0
+                            Release Notes
+
+
+===============
+Version 1.0.0
+===============
+> 包说明
+	com.huhuo.integration.algorithm
+		编码、加密等算法
+	com.huhuo.integration.base
+		基础接口或类库
+	com.huhuo.integration.config
+		配置
+	com.huhuo.integration.exception
+		异常
+	com.huhuo.integration.service
+		服务组件
+	com.huhuo.integration.util
+		工具
+
+
+
+
+
+

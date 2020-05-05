@@ -1,0 +1,96 @@
+/**
+	关于在bootstrap基础上调节的样式修改
+
+**/
+.table-hover tbody tr:hover>td,.table-hover tbody tr:hover>th {
+	background-color: #5D89F8;
+	color: #FFF;
+}
+
+.nav-tabs>li>a:hover,.nav-tabs>li>a:focus {
+	background-color: #9DCFE8;
+}
+
+.nav-tabs>li>a {
+	background-color: #FFFFFF;
+}
+
+.nav-tabs.nav-stacked>li>a.huhuoItem {
+	padding-left: 30px;
+	border-style: solid;
+	border-width: 0px 1px 0px 1px;
+	border-color: #E5E8EF;
+}
+
+.nav-tabs.nav-stacked>li>a.huhuoItem.first {
+	border-top-width: 1px;
+}
+
+.nav-tabs.nav-stacked>li>a.huhuoItem.end {
+	border-bottom-width: 1px;
+}
+
+.nav-tabs.nav-stacked>li>a.huhuoItem:hover {
+	background-color: #5D89F8;
+	color: #FFF;
+}
+
+
+.top {
+	background: url(../../images/header-bg.jpg);
+	min-width: 748px;
+}
+
+.well {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    padding: 19px;
+}
+
+body, input, button, select, textarea {
+	font-family: Arial,"微软雅黑";
+}
+
+.huhuo-icon-check-on {
+	background: url(../../images/status/btn_check_buttonless_on.png);
+}
+
+/**
+  item selected CSS for menu
+ */
+.nav-tabs.nav-stacked > li > a.huhuo-item-selected {
+    background-color: #5D89F8;
+    color: #FFFFFF;
+}
+/**
+  item selected CSS for search nav bar
+ */
+.dropdown-menu > li > a.huhuo-item-selected {
+    background-color: #0081C2;
+    background-image: linear-gradient(to bottom, #0088CC, #0077B3);
+    background-repeat: repeat-x;
+    color: #ffffff;
+    text-decoration: none;
+}
+/**
+  progress CSS setting
+ */
+.progress {
+	position:relative;
+}
+.percent {
+	position:absolute;
+	display:inline-block;
+	left:48%;
+	color: white;
+}
+/**
+table tr and td css setting
+*/
+.table th, .table td {
+	text-align: center;
+	vertical-align: middle;
+}
